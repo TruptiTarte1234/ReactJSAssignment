@@ -1,0 +1,59 @@
+.searchBox{
+	margin: 10px;
+	padding: 10px;
+	float:left;
+}
+.searchBtn{
+	float:left;
+	cursor: pointer;
+	padding:10px;
+	background:#000000;
+	color:#ffffff;
+	border:1px solid #000000;
+	margin: 10px;
+}
+.searchBtn:hover{
+	background:#ffffff;
+	color:#000000;
+}
+.userTableContainer{
+	float:left;
+	height:500px;
+	overflow-y:scroll;
+}
+.UserTable
+{
+	width:500px;
+}
+.UserTable td{
+	text-align: center;
+	width:33%;
+	cursor: pointer;
+}
+.UserTable .firstRow{background:#20B2AA;}
+.UserTable .firstRow td{padding:10px;}
+.UserTable .firstRow:hover{background: #20B2AA;}
+.UserTable tr:hover{
+	background: #20B2AA;
+}
+.UserTable,td{
+	border:1px solid #000000;
+}
+
+.userImg{width:50px;}
+.userDetailPage{display:none;}
+.userDetail{
+	float:left;
+}
+.userDetail{float:left; width:550px;}
+.fieldName{float:left; width:30%;}
+.fieldValue{float:left; width:70%;}
+.userImg1{float:left; padding:15px 20px 0 0; width:100px; height:100px;}
+.backBtn{
+	float: left;
+    padding: 15px;
+    background: #000000;
+    color: #ffffff;
+    cursor: pointer;
+    margin: 10px;
+}
